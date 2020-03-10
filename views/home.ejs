@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
+  <title>Hollywood Nail Salon</title>
+</head>
+<body>
+  
+ 
+<div class="main-container">
+
+  <div class="photo">
+    <img src="images/model2.jpg">
+      </div>
+
+  <div class="right-side">
+      <nav>
+          <a href="/home/index/gallery ">Gallery</a>
+          <a href="/home/new/services ">Services</a>
+          <a href="/branduse/new/brands ">Brands</a>
+            </nav>
+              
+          <a href="/home"><img src="images/hollywood.jpg" width=500px height=275px></a>
+          
+          <div class="quote">
+              <p>"A girl should have two things: Beautiful Nails and Fabulous Toes."</p>
+              <p>*Tammy Taylor</p>
+            </div>
+
+            <hr>
+
+      <div class="header">
+          <h1>266 Garfield Avenue</h1>
+          <h1>Cranston, Rhode Island 02920</h1>
+          <h3><a href="tel:401-383-7570">Phone: 401-383-7570</a></h3>
+          <h3>Monday – Saturday 10:00AM – 7:00PM</h3>
+          <h3>Sunday 11:00PM – 5:00PM</h3>
+      </div>
+
+      
+
+      
+
+      <div class="para">
+          <p>Hollywood Nail Salon | <a href="tel:401-383-7570">Phone: 401-383-7570</a></p>
+          <p>266 Garfield Avenue | Cranston, RI 02920</p>
+          <p>Copyright ©2020 Hollywood Nails - Cranston, RI, All Rights Reserved</p>
+          <p>Web Design: <span>Phi Huynh</span></p>
+
+          <% if(!currentUser) { %>
+            <a href="/sessions/new">Admin</a>
+          <% } %>
+  
+          <% if(currentUser) { %>
+            <a href="/users/new">New Account</a>
+          <% } %>
+  
+          <% if(currentUser) { %>
+            <form action="/sessions?_method=DELETE" method="POST">
+              <input type="submit" value="Logout" />
+            </form>
+          <% } %>
+        </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>
