@@ -48,6 +48,10 @@ app.get("/home", (req, res) => {
     });
   });
 
+app.get("/", (req, res) => {
+  res.redirect("/home")
+})
+
 
 //controller
 const usersController = require("./controllers/users.js"); //@@@@
