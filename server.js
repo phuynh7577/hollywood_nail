@@ -26,7 +26,7 @@ app.use(
 );
 app.use(methodOverride("_method"));
 
-mongoose.connect(MONGOURI, {
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
