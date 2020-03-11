@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phuynh7577/nail_salon.git"
+    "url": "git+https://github.com/phuynh7577/hollywood_nail.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/phuynh7577/nail_salon/issues"
+    "url": "https://github.com/phuynh7577/hollywood_nail/issues"
   },
-  "homepage": "https://github.com/phuynh7577/nail_salon#readme",
+  "homepage": "https://github.com/phuynh7577/hollywood_nail#readme",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "dotenv": "^8.2.0",
