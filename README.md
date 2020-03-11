@@ -2,7 +2,7 @@
 
 # nail_salon
 
-### LINK TO SITE: [I'm an inline-style link](https://hollywoodnailsalon.herokuapp.com/)
+### LINK TO SITE: [https://hollywoodnailsalon.herokuapp.com/](https://hollywoodnailsalon.herokuapp.com/)
 
 ### Technology Used
 * Node.js, Express, & EJS:
