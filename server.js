@@ -7,7 +7,7 @@ const session = require("express-session");//@@@@@
 const methodOverride = require("method-override");
 
 const PORT = process.env.PORT
-const MONGOURI = process.env.MONGODB_URI
+const MONGODB_URI = process.env.MONGODB_URI
 const SECRET = process.env.SECRET
 
 //use public folder for static assets......middleware
