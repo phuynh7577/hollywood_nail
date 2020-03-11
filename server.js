@@ -7,7 +7,7 @@ const session = require("express-session");//@@@@@
 const methodOverride = require("method-override");
 
 const PORT = process.env.PORT
-const MONGODB_URI = process.env.MONGODB_URI
+const MONGOURI = process.env.MONGODB_URI
 const SECRET = process.env.SECRET
 
 //use public folder for static assets......middleware
@@ -26,7 +26,7 @@ app.use(
 );
 app.use(methodOverride("_method"));
 
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(MONGOURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
