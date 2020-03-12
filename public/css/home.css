@@ -15,9 +15,6 @@ body {
     height: 100%;
     background-color: antiquewhite;
     display: flex;
-
-  
-    
 }
 
 .photo {
@@ -81,6 +78,7 @@ img {
     color: #f6f4e6;
     font-weight: lighter;
     margin-top: 5vh;
+    font-size: 10px;
 }
 
 hr {
@@ -118,3 +116,33 @@ a:hover {
 input:hover {
     background-color: #FDDB3A;
 }
+
+@media screen and (max-width: 415px) {
+    .photo img {
+        display: none;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+    .main-container {
+        position: absolute;
+    }
+
+    .right-side img {
+        width: 325px;
+        height: 200px
+    }
+
+    .quote p{
+        font-size: 20px;
+    }
+
+    .header {
+        font-size: 7px;
+    }
+
+    .para {
+        font-size: 7px;
+    }
+  }

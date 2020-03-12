@@ -13,8 +13,6 @@ const SECRET = process.env.SECRET
 //use public folder for static assets......middleware
 app.use(express.static("public"));
 
-
-
 app.use(express.urlencoded({ extended: true }));//@@@@@
 
 app.use(
@@ -51,7 +49,6 @@ app.get("/home", (req, res) => {
 app.get("/", (req, res) => {
   res.redirect("/home")
 })
-
 
 //controller
 const usersController = require("./controllers/users.js"); //@@@@

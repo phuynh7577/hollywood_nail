@@ -50,7 +50,7 @@ router.get("/index/services", (req, res) => {
  //delete
  router.delete('/services/:id', (req, res)=>{
     Services.findByIdAndRemove(req.params.id, (err, data)=>{
-      res.redirect('/home/new/services');//redirect back to fruits index
+      res.redirect('/home/new/services');
   });
   });
 

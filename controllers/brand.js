@@ -36,7 +36,7 @@ router.get("/index/brands", (req, res) => {
   //delete
  router.delete('/brands/:id', (req, res)=>{
     Brand.findByIdAndRemove(req.params.id, (err, data)=>{
-      res.redirect('/branduse/new/brands');//redirect back to brands index
+      res.redirect('/branduse/new/brands');
   });
   });
 
