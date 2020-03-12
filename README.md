@@ -4,6 +4,10 @@
 
 ### LINK TO SITE: [https://hollywoodnailsalon.herokuapp.com/](https://hollywoodnailsalon.herokuapp.com/)
 
+### USERS: 
+* Salon Owner
+* Customers
+
 ### Technology Used
 * Node.js, Express, & EJS:
   * Created routes to the web browser using Node.js. 
@@ -31,8 +35,9 @@
 7. Used CSS and Bootstrap to style all of my pages.
 8. Hosted my site on Heroku. 
 
-### Unsolved Problems:
-* NONE
+### Future Ideas:
+* Admin- will be able to upload their images to the gallery.
+* Customers- Can submit reviews which will be showcased on the services, brands, and gallery page.
 
 ### User Stories
 * This site is made for the owner of the nail salon.

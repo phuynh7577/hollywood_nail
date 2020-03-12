@@ -94,7 +94,7 @@ hr {
 }
 
 .para {
-    margin-top: 10vh;
+    margin-top: 18vh;
     color: #f6f4e6;
     font-weight: lighter;
     font-size: smaller;
@@ -146,3 +146,14 @@ input:hover {
         font-size: 7px;
     }
   }
+
+  @media screen and (max-width: 775px) {
+    .right-side img {
+        width: 250px;
+        height: 135px;
+    }
+    .para {
+        margin-top: 23vh;
+    }
+}
+

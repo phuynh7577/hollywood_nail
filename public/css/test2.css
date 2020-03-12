@@ -1,0 +1,28 @@
+@media screen and (max-width: 416px) {
+    .services {
+        grid-template-columns: 160px 160px;
+        justify-content: center;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .form input {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form button {
+        width: 25vw;
+    }
+  }
+
+  @media screen and (min-width: 760px) {
+    .services {
+        grid-template-columns: 160px 160px 160px 160px;
+        justify-content: center;
+    }
+    
+}
