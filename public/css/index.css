@@ -99,7 +99,7 @@ img {
     image-rendering: auto;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 700px) {
     .list p{
         font-size: 10px;
     }
@@ -114,9 +114,20 @@ img {
 
     .main-container img {
         display: none;
+        width: 0px;
+        height: 0px;
     }
 
     .right-side {
         width: 100%;
+    }
+    .photo img{
+        width: 0px;
+        height: 0px;
+        position: inherit;
+    }
+    .photo {
+        width: 0px;
+        height: 0px;
     }
   }

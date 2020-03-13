@@ -120,6 +120,9 @@ input:hover {
 @media screen and (max-width: 415px) {
     .photo img {
         display: none;
+        width: 0px;
+        height: 0px;
+        position: inherit;
     }
 
     .right-side {
@@ -144,6 +147,10 @@ input:hover {
 
     .para {
         font-size: 7px;
+    }
+    .photo {
+        width: 0px;
+        height: 0px;
     }
   }
 
