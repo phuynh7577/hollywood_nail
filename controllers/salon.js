@@ -38,13 +38,13 @@ router.get("/index/services", (req, res) => {
   });
 
   // SHOW
-  router.get("/services/:id", (req, res) => {
-    Services.findById(req.params.id, (err, Services) => {
-      res.render("show_services.ejs", {
-        Services: Services
-      });
-    });
-  });
+  // router.get("/services/:id", (req, res) => {
+  //   Services.findById(req.params.id, (err, Services) => {
+  //     res.render("show_services.ejs", {
+  //       Services: Services
+  //     });
+  //   });
+  // });
 
 
  //delete
