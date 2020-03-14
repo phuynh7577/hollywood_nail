@@ -2,7 +2,7 @@
 
 # nail_salon
 
-### LINK TO SITE: [https://hollywoodnailsalon.herokuapp.com/](https://hollywoodnailsalon.herokuapp.com/)
+### LINK TO SITE: [https://hollywoodnailsalon.herokuapp.com/](https://www.hollywoodnailsalons.com)
 
 ### USERS: 
 * Salon Owner
